@@ -1,3 +1,4 @@
+# Name of the workflow. You can give any name
 name: StudentManagement API CI
 
 on:
