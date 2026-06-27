@@ -42,7 +42,7 @@ jobs:
     # Step 7: Store the publish output as an artifact
       - name: Upload publish artifact
         uses: actions/upload-artifact@v6
-       with:
+        with:
          name: studentmanagement-api-publish
          path: ./publish
       
