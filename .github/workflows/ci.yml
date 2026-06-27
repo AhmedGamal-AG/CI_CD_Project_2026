@@ -1,16 +1,17 @@
+# Name of the workflow. You can give any name
 name: StudentManagement API CI
 
 on:
   # Run CI when code is pushed to main or any feature branch
   push:
     branches:
-      - main
+      - master
       - feature/**
   
   # Run CI when a pull request is created or updated for main
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build-test-publish:
